@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	display: block;
+	height: auto;
+}
+.header-area{
+	background: #E7EAED;
+	position: fixed;
+	width: 100%;		
+	z-index: 1;
+}
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+.content-area{
+	display: flex;
+}
+.logo{
+	width: 15%;
+    margin: auto;
+}
+.manu{
+	width: 60%;
+}
+.manu ul{
+	display: flex;
+	justify-content: center;
+	margin: 15px 0;
+}
+.manu ul a{
+	color: #48453dd1;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+.manu ul a:hover{
+	background: #fff;
+}
+.login-area{
+	width: 20%;
+	
+}
+.login-area ul{
+	display: flex;
+	margin: 15px 0;
+	justify-content: center;
+}
+#login{
+	color: #48453dd1;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+#login:hover{
+	background: #fff;
+}
+#sing{
+	color: #48453dd1;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    transition:0.3s;
+    background: #fff;
+}
+#sing:hover{
+	background:#c5b4b487;
+}
+/*header end*/
+.banner-area{
+	background: url('img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	
+}
+.banner-overla{
+	background:rgba(0, 0, 0, .7) ;
+	height: 100vh;
+	position: relative;
+}
+.banner-content{
+	position: absolute;
+	text-align: center;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.banner-content h1{
+			
+    color: #E93336;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.banner-content p{
+	color: #fff;
+	margin-bottom: 50px;
+}
+.book-now{
+	color: #fff;
+    padding: 5px 10px;
+    border: 0.5px solid #fff;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.book-now:hover{
+	background: #DD790B;
+}
+/*banner end*/
+
+.about-area{
+	margin-bottom:50px;
+
+}
+.section-titel{
+	text-align: center;
+}	
+.section-titel h2{
+	color: #E83A3D;
+    font-size: 40px;
+    padding: 65px 0;
+}
+.about-content{
+display: flex;
+justify-content:space-between;
+flex-flow: wrap;
+}
+.about-left{
+	width: 45%;
+}
+.about-right{
+margin-left: 5%;
+width: 50%;
+
+}
+.about-right h3{
+	font-size: 30px;
+	color: #636e72;
+	margin-bottom: 10px;
+}
+.about-right p{
+	line-height: 30px;
+	color:#636e72 ;
+	margin-bottom: 30px;
+}
+.about-right a{
+	color: #756e6e;
+    padding: 5px 10px;
+    border: 0.5px solid #271a1a2b;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.about-right a:hover{
+	background: #DD790B;
+	color: #e4dcdcad;
+}
+/*banner end*/
+.food-section{
+	background: #bdc3c71f;
+	width: 100%;
+}
+.food-item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.food-img{
+	position: relative;
+	width: 32%;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+.Paric{
+	position:absolute;
+    width:100%;
+	height: 100%;
+	top:100%;
+	left:0;
+	background:rgba(0, 0, 0, .7) ;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+.Paric button{
+	padding: 5px 15px;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid;
+    font-size: 15px;
+	
+}
+.food-img:hover .Paric{
+	top:0;
+}
+.chef-area{
+	background:#dcd2d2d6;
+}
+.Chef-member{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	
+}
+.Chef-time{
+	width: 23%;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.sosal{
+	width: 20%;
+    height: 91%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -20%;
+    background: rgba(0, 0, 0, .7);
+    transition: .5s;
+}
+.sosal li{
+	margin: 25px;
+}
+.sosal a{
+	color: #fff8f8;
+    padding: 10px;
+    background:#ffffffad;
+    border-radius: 5px;
+    transition: .5s;
+}
+.Chef-time:hover .sosal{
+	right: 0px;
+}
+.sosal a:hover{
+	background: #ffffff78;
+}
